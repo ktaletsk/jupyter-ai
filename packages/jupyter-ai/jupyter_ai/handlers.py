@@ -111,6 +111,8 @@ class RootChatHandler(JupyterHandler, websocket.WebSocketHandler):
         is synthesized from the login."""
         collaborative = self.config.get("LabApp", {}).get("collaborative", False)
 
+        self.log.info(self.current_user)
+        
         if collaborative:
             return ChatUser(**asdict(self.current_user))
 
