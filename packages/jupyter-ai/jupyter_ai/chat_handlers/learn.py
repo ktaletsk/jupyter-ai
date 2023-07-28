@@ -240,7 +240,7 @@ class LearnChatHandler(BaseChatHandler, BaseRetriever):
             return
         self.index = FAISS.from_texts(
             [
-                "Jupyternaut knows about your filesystem, to ask questions first use the /learn command."
+                "Polus AI knows about your filesystem, to ask questions first use the /learn command."
             ],
             embeddings,
         )

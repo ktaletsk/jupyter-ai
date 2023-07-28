@@ -6,9 +6,9 @@ from jupyter_ai.models import AgentChatMessage, HumanChatMessage
 
 from .base import BaseChatHandler
 
-HELP_MESSAGE = """Hi there! I'm Jupyternaut, your programming assistant.
+HELP_MESSAGE = """Hi there! I'm Polus AI, your programming assistant.
 You can ask me a question using the text box below. You can also use these commands:
-* `/learn` — Teach Jupyternaut about files on your system
+* `/learn` — Point Polus AI to files on your system
 * `/ask` — Ask a question about your learned data
 * `/generate` — Generate a Jupyter notebook from a text prompt
 * `/clear` — Clear the chat window

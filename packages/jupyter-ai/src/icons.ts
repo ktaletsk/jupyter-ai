@@ -3,7 +3,7 @@
 import { LabIcon } from '@jupyterlab/ui-components';
 
 import chatSvgStr from '../style/icons/chat.svg';
-import jupyternautSvg from '../style/icons/jupyternaut.svg';
+import jupyternautSvg from '../style/icons/polus_logo.svg';
 
 export const chatIcon = new LabIcon({
   name: 'jupyter-ai::chat',
