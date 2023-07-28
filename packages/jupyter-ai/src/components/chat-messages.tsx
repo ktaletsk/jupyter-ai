@@ -52,7 +52,7 @@ export function ChatMessageHeader(props: ChatMessageHeaderProps): JSX.Element {
     );
   } else {
     avatar = (
-      <Avatar sx={{ ...sharedStyles, bgcolor: 'var(--jp-jupyter-icon-color)' }}>
+      <Avatar sx={{ ...sharedStyles, bgcolor: '#ffffff' }}>
         <Jupyternaut display="block" height="100%" width="100%" />
       </Avatar>
     );
@@ -61,7 +61,7 @@ export function ChatMessageHeader(props: ChatMessageHeaderProps): JSX.Element {
   const name =
     props.message.type === 'human'
       ? props.message.client.display_name
-      : 'Jupyternaut';
+      : 'Polus AI';
 
   return (
     <Box
